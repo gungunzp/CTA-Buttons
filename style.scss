@@ -1,7 +1,7 @@
 $white: #fff;
 $gray: #aaa;
-//$beige: #E4CFB4;
 $beige: #C3AE93;
+$light-beige: #E4CFB4;
 $light-blue: #637EA0;
 $dark-blue: #425567;
 
@@ -85,7 +85,7 @@ a.btn {
 
 	&--beige-blue {
 		color: $dark-blue;
-		background-color: $beige;
+		background-color: $light-beige;
 
 		&:before {
 			background-color: $light-blue;
@@ -101,7 +101,7 @@ a.btn {
 		background-color: $light-blue;
 
 		&:before {
-			background-color: $beige;
+			background-color: $light-beige;
 		}
 
 		&:hover {

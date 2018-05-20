@@ -147,7 +147,7 @@ a.btn {
       color: #425567; }
   a.btn--beige-blue {
     color: #425567;
-    background-color: #C3AE93; }
+    background-color: #E4CFB4; }
     a.btn--beige-blue:before {
       background-color: #637EA0; }
     a.btn--beige-blue:hover {
@@ -156,7 +156,7 @@ a.btn {
     color: #fff;
     background-color: #637EA0; }
     a.btn--beige-blue--inverse:before {
-      background-color: #C3AE93; }
+      background-color: #E4CFB4; }
     a.btn--beige-blue--inverse:hover {
       color: #425567; }
 
