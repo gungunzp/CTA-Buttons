@@ -108,7 +108,7 @@ a.btn {
   /*font-family: Consolas, "Andale Mono", Monaco, Courier, "Courier New", Verdana, Arial, sans-serif;*/
   font-weight: 600;
   color: #fff;
-  background-color: #E4CFB4;
+  background-color: #C3AE93;
   padding: .8em 2em;
   border-radius: 3px;
   text-transform: capitalize;
@@ -147,7 +147,7 @@ a.btn {
       color: #425567; }
   a.btn--beige-blue {
     color: #425567;
-    background-color: #E4CFB4; }
+    background-color: #C3AE93; }
     a.btn--beige-blue:before {
       background-color: #637EA0; }
     a.btn--beige-blue:hover {
@@ -156,10 +156,9 @@ a.btn {
     color: #fff;
     background-color: #637EA0; }
     a.btn--beige-blue--inverse:before {
-      background-color: #E4CFB4; }
+      background-color: #C3AE93; }
     a.btn--beige-blue--inverse:hover {
       color: #425567; }
-
 
 
 

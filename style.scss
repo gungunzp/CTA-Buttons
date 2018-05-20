@@ -1,0 +1,111 @@
+$white: #fff;
+$gray: #aaa;
+//$beige: #E4CFB4;
+$beige: #C3AE93;
+$light-blue: #637EA0;
+$dark-blue: #425567;
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+	//background-color: $gray;
+}
+
+
+a.btn {
+	display: inline-block;
+	text-decoration: none !important;
+	font-size: 20px;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+	/*font-family: "proxima_nova";*/
+	/*font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;*/
+	/*font-family: Consolas, "Andale Mono", Monaco, Courier, "Courier New", Verdana, Arial, sans-serif;*/
+	font-weight: 600;
+	color: $white;
+	background-color: $beige;
+	padding: .8em 2em;
+	border-radius: 3px;
+	text-transform: capitalize;
+	position: relative;
+	transform: perspective(1px)translateZ(0);
+	transition: color .3s ease-out;
+
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		border-radius: 3px;
+		transform: scaleX(0);
+		transition: transform .3s ease-out;
+		background-color: $white;
+		z-index: -1;
+	}
+
+	&:hover {
+		color: $light-blue;
+
+		&:before {
+			transform: scaleX(1);
+		}
+	}
+
+	&--light-blue {
+		color: $white;
+		background-color: $light-blue;
+
+		&:before {
+			background-color: $white;
+		}
+
+		&:hover {
+			color: $light-blue;
+		}
+	}
+
+	&--dark-blue {
+		color: $white;
+		background-color: $dark-blue;
+
+		&:before {
+			background-color: $white;
+		}
+
+		&:hover {
+			color: $dark-blue;
+		}
+	}
+
+	&--beige-blue {
+		color: $dark-blue;
+		background-color: $beige;
+
+		&:before {
+			background-color: $light-blue;
+		}
+
+		&:hover {
+			color: $white;
+		}
+	}
+
+	&--beige-blue--inverse {
+		color: $white;
+		background-color: $light-blue;
+
+		&:before {
+			background-color: $beige;
+		}
+
+		&:hover {
+			color: $dark-blue;
+		}
+	}
+}
